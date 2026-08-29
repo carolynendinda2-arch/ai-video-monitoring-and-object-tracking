@@ -38,19 +38,26 @@ It can:
 🧠 How It Works
 
 📹 Input Video
-      ↓
+      ↓  
+      
 🤖 YOLO11 Object Detection
       ↓
+      
 🆔 ByteTrack Tracking
       ↓
+      
 🚶 Movement Analysis
       ↓
+      
 🧍 YOLO11 Pose Estimation
       ↓
+      
 🪑 Posture Analysis
       ↓
+      
 🔢 Counting & Statistics
       ↓
+      
 📊 Report + Annotated Video
 
 
@@ -88,9 +95,13 @@ Example:
 
 
 Frame 1 → Person ID 1
+
 Frame 2 → Person ID 1
+
 Frame 3 → Person ID 1
+
 Frame 4 → Person ID 1
+
 
 This allows the system to follow objects as they move through the video.
 
@@ -185,18 +196,23 @@ Technology	Purpose
 
 ai-video-monitoring-and-object-tracking/
 │
+
 ├── README.md
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── yolo11n-pose.pt
+
 └── yolo11n.pt
 
 File	Description
-app.py	Main application
-requirements.txt	Required Python packages
-yolo11n.pt	Pre-trained YOLO11 model
-yolo11n-pose.pt	Pre-trained YOLO11 Pose model
-README.md	Project documentation
+app.py_Main application
+requirements.txt_Required Python packages
+yolo11n.pt_Pre-trained YOLO11 model
+yolo11n-pose.pt_Pre-trained YOLO11 Pose model
+README.md_Project documentation
 
 
 🚀 How to Run
